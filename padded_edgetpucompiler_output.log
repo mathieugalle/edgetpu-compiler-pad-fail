@@ -1,0 +1,117 @@
+Edge TPU Compiler version 16.0.384591198
+Searching for valid delegate with step 1
+Try to compile segment with 135 ops
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 134 ops
+Intermediate tensors: Identity1
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 133 ops
+Intermediate tensors: MobileRetinaNet/concat,MobileRetinaNet/concat_1
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 132 ops
+Intermediate tensors: MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_8,MobileRetinaNet/concat
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 131 ops
+Intermediate tensors: MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_8,MobileRetinaNet/concat,MobileRetinaNet/Reshape_6,MobileRetinaNet/sequential_1/conv2d_15/BiasAdd
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 130 ops
+Intermediate tensors: MobileRetinaNet/sequential_1/re_lu_5/Relu,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_8,MobileRetinaNet/Reshape_2,MobileRetinaNet/concat,MobileRetinaNet/Reshape_6
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 129 ops
+Intermediate tensors: MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_6,MobileRetinaNet/concat,MobileRetinaNet/sequential_1/re_lu_4/Relu,MobileRetinaNet/Reshape_8
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 128 ops
+Intermediate tensors: MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_8,MobileRetinaNet/concat,MobileRetinaNet/Reshape_6,MobileRetinaNet/sequential_1/re_lu_3/Relu,MobileRetinaNet/Reshape_2
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 127 ops
+Intermediate tensors: MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_8,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/concat,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_2
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 126 ops
+Intermediate tensors: MobileRetinaNet/Reshape_8,MobileRetinaNet/Reshape_9,MobileRetinaNet/Reshape_3,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_1
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 125 ops
+Intermediate tensors: MobileRetinaNet/Reshape_9,MobileRetinaNet/Reshape_3,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/Reshape_8,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_5,MobileRetinaNet/sequential/conv2d_11/BiasAdd,MobileRetinaNet/Reshape_4
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 124 ops
+Intermediate tensors: MobileRetinaNet/Reshape_8,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/sequential/re_lu_2/Relu,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_3,MobileRetinaNet/Reshape_9
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 123 ops
+Intermediate tensors: MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_8,MobileRetinaNet/sequential/re_lu_1/Relu,MobileRetinaNet/Reshape_3,MobileRetinaNet/Reshape_9,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/Reshape_4
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 122 ops
+Intermediate tensors: MobileRetinaNet/Reshape_3,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/sequential/re_lu/Relu,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_8,MobileRetinaNet/Reshape_9
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 121 ops
+Intermediate tensors: MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_3,MobileRetinaNet/Reshape_9,MobileRetinaNet/Reshape_8,MobileRetinaNet/FeaturePyramid/conv2d_3/BiasAdd,MobileRetinaNet/Reshape_4
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 120 ops
+Intermediate tensors: MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_4,MobileRetinaNet/Reshape_3,MobileRetinaNet/Reshape_9,MobileRetinaNet/Reshape_8,MobileRetinaNet/FeaturePyramid/add_1,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_5
+Started a compilation timeout timer of 180 seconds.
+Compilation child process completed within timeout period.
+Compilation failed! 
+Try to compile segment with 119 ops
+Intermediate tensors: MobileRetinaNet/Reshape_6,MobileRetinaNet/Reshape_7,MobileRetinaNet/Reshape_5,MobileRetinaNet/Reshape_2,MobileRetinaNet/Reshape_8,MobileRetinaNet/Reshape_9,MobileRetinaNet/Reshape_3,MobileRetinaNet/FeaturePyramid/up_sampling2d/resize_2/ResizeNearestNeighbor,MobileRetinaNet/FeaturePyramid/zero_padding2d/Pad,MobileRetinaNet/Reshape_4
+Started a compilation timeout timer of 180 seconds.
+
+Model compiled successfully in 912 ms.
+
+Input model: model_input/model.tflite
+Input size: 2.87MiB
+Output model: model_output/model_edgetpu.tflite
+Output size: 3.46MiB
+On-chip memory used for caching model parameters: 3.86MiB
+On-chip memory remaining for caching model parameters: 3.66MiB
+Off-chip memory used for streaming uncached model parameters: 0.00B
+Number of Edge TPU subgraphs: 3
+Total number of operations: 135
+Operation log: model_output/model_edgetpu.log
+
+Model successfully compiled but not all operations are supported by the Edge TPU. A percentage of the model will instead run on the CPU, which is slower. If possible, consider updating your model to use only operations supported by the Edge TPU. For details, visit g.co/coral/model-reqs.
+Number of operations that will run on Edge TPU: 132
+Number of operations that will run on CPU: 3
+
+Operator                       Count      Status
+
+PAD                            5          Mapped to Edge TPU
+CONCATENATION                  2          More than one subgraph is not supported
+CONCATENATION                  1          Mapped to Edge TPU
+ADD                            1          More than one subgraph is not supported
+ADD                            11         Mapped to Edge TPU
+CONV_2D                        83         Mapped to Edge TPU
+QUANTIZE                       2          Mapped to Edge TPU
+DEPTHWISE_CONV_2D              17         Mapped to Edge TPU
+RESIZE_NEAREST_NEIGHBOR        2          Mapped to Edge TPU
+RESHAPE                        10         Mapped to Edge TPU
+RELU                           1          Mapped to Edge TPU
+Compilation child process completed within timeout period.
+Compilation succeeded! 

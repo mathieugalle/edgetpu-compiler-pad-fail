@@ -1,0 +1,31 @@
+Edge TPU Compiler version 16.0.384591198
+Searching for valid delegate with step 1
+Try to compile segment with 134 ops
+Started a compilation timeout timer of 180 seconds.
+
+Model compiled successfully in 986 ms.
+
+Input model: model_input/model.tflite
+Input size: 2.88MiB
+Output model: model_output/model_edgetpu.tflite
+Output size: 3.31MiB
+On-chip memory used for caching model parameters: 3.86MiB
+On-chip memory remaining for caching model parameters: 3.83MiB
+Off-chip memory used for streaming uncached model parameters: 0.00B
+Number of Edge TPU subgraphs: 1
+Total number of operations: 134
+Operation log: model_output/model_edgetpu.log
+
+Operator                       Count      Status
+
+ADD                            12         Mapped to Edge TPU
+RELU                           1          Mapped to Edge TPU
+CONCATENATION                  3          Mapped to Edge TPU
+PAD                            4          Mapped to Edge TPU
+RESHAPE                        10         Mapped to Edge TPU
+RESIZE_NEAREST_NEIGHBOR        2          Mapped to Edge TPU
+CONV_2D                        83         Mapped to Edge TPU
+QUANTIZE                       2          Mapped to Edge TPU
+DEPTHWISE_CONV_2D              17         Mapped to Edge TPU
+Compilation child process completed within timeout period.
+Compilation succeeded! 
