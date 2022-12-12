@@ -17,7 +17,7 @@ Moreover, it says "More than one subgraph is not supported", but with the -a opt
 #        Enable multiple(all) subgraphs (experimental flag).
 ```
 
-Use the custom_retina.ipynb with `padded = True` to generate a tflite that fails compilation and `model_with_pad = False` for compilation success.
+Use the `custom_retina.ipynb` with `padded = True` to generate a tflite that fails compilation and `padded = False` for compilation success.
 
 The "representative dataset is only here for providing realistic images for quantization.
 I only try to make an architecture that compiles for coral here, not training a model.
