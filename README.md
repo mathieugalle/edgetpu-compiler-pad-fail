@@ -1,0 +1,1 @@
+# edgetpu-compiler-pad-fail
