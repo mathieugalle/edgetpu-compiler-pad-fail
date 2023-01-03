@@ -452,7 +452,10 @@ class FeaturePyramid(keras.layers.Layer):
 
         if self.padded:
             # THE OPERATION THAT FAILS THE EDGETPU
-            p3_output_padded = tf.keras.layers.ZeroPadding2D(padding=((1, 0), (0,0)))(p3_output)
+            # the google guy line : 
+            # p3_output_padded = tf.keras.layers.ZeroPadding2D(padding=((1, 0), (0,0)))(p3_output)
+
+            p3_output_padded = tf.keras.layers.ZeroPadding2D(padding=((0, 1), (0,0)))(p3_output)
             print("shape p3_output        : " + str(p3_output.shape))
             print("shape p3_output_padded : " + str(p3_output_padded.shape))
             print("shape p4_output : " + str(p4_output.shape))
